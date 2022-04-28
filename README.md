@@ -5,4 +5,4 @@
 menggunakan library Axios untuk fetching data, untuk menginstallnya dapat menggunakan perintah `npm install axios`
 
 ## Tampilan Web
-<img src="https://github.com/putuary/Prak4-PWL-Webservice/Tampilan_Web.png" />
+<img src="https://github.com/putuary/Prak4-PWL-Webservice/blob/main/Tampilan_Web.png" />
