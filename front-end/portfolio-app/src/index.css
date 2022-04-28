@@ -1,0 +1,65 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{font-family: 'Roboto', sans-serif;
+}
+.component-body{
+    background-color: rgb(230, 218, 206);
+    text-align: center;
+    padding: 5%;
+}
+.component-details h1{
+    font-family: 'Lato', sans-serif;
+}
+.component-details p{
+    margin: 5% 28%;
+    font-size: 20px;
+} 
+h1 > span{
+    padding: 0px 10px;
+    margin: 10px 5px 7px 0px;
+    background-color: #0050ff;
+}
+.btn{
+    text-decoration: none;
+    margin-right:2% ;
+    border: 2px solid #0050ff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;  
+    text-align :center;  
+    padding: 10px 20px 10px 20px;  
+    cursor: pointer;  
+}
+.btn-blue{
+    background-color: #0050ff;
+    color: white;
+}
+.btn-white{
+    background-color: #fff;
+    color: black;
+}
+.btn-white:hover{
+    background-color:#0050ff ;
+    color: white;
+    transition: .3s ease-in;
+}
+.btn-blue:hover{
+    background-color: white;
+    color:black;
+    transition: .3s ease-in;
+}
+@media only screen and (max-width: 500px){
+    .btn{
+    margin-right: 2px !important;
+    }
+    .component-details p{
+        margin: 6% 2%;
+        font-size: 17px;
+    }
+    .btn{
+        font-size: 12px !important;
+    }
+}

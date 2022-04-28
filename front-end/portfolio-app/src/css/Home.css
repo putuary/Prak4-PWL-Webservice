@@ -1,0 +1,146 @@
+.home-body{
+    background: linear-gradient(90deg, rgb(230 218 206) 40%, #fff 40%);
+    padding:10% 1% 10% 1%;
+}
+.my-info{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background:#f4ece6; 
+    width: 105%;
+    text-align: center;
+    margin: 0% 0% 0% 13%;
+    height: 550px;
+}
+.my-info h1{
+    font-family: 'Lato', sans-serif;
+
+}
+.my-info > img
+{
+    margin: 47px 0px ;
+    height: 200px;
+    border-radius: 100%;
+}
+.hr{
+    margin:7% 0% 7% 38% ;
+    width: 25%;
+    border-bottom: 2px solid #0050ff !important;
+}
+.my-info p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.social{
+    margin-top: 14%;
+    background-color: #fff;
+    padding: 4% 0%;
+}
+.social img{
+    height: 20px;
+    margin-left: 20px;
+}
+.info{
+    margin-left:5% ;
+    width: 80%;
+}
+.first-line{
+    margin:6% 0% 0% 7%;
+    font-size: 95px;
+    font-family: 'Lato', sans-serif;
+
+}
+.second-line{
+    
+    font-weight: bolder;
+    font-size: 27px;
+    margin-left: 7%;
+}
+.btn-div{
+    margin: 4% 0% 5% 7%;
+}
+
+a >img{
+    height: 15px;
+}
+
+.last-para{
+    text-align: left;
+    margin-left: 7%;
+    font-size: 19px;
+    margin-bottom: 5%;
+}
+p > a{
+    text-decoration: none;
+    color: #1e63fc;
+    font-weight: bold;
+}
+p > a:hover{
+    text-decoration: underline;
+    color: #1944a1;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .home-body{
+        background: linear-gradient(180deg, white 20%, rgb(230 218 206) 20%) ;
+        padding: 5% 3%;
+    }
+    .my-info{ 
+        width: 60%;
+        text-align: center;
+        margin: 0% 0% 10% 20%;
+        height: 510px;
+    }
+    .social{
+        margin-top: 8%;
+        background-color: #fff;
+        padding: 3% 0%;
+    }
+    .first-line{
+        font-size: 65px;
+    }
+    .second-line{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .my-info{ 
+        width: 360px;
+        text-align: center;
+        margin: 0% 15% 10% 15%;
+        height: 510px;
+    } 
+    .my-info > img{
+    margin: 47px 0px ;
+    height: 160px;
+    }
+    .info{
+        width: 90%;
+    }
+.first-line{
+    font-size: 55px;
+    }
+.second-line{
+    font-size: 23px;
+    }
+}
+@media only screen and (max-width: 525px){
+    .my-info{
+        height: 410px;
+        margin: 0% 5% 10% 15%;
+        width: 300px;
+    }
+    .my-info > p{
+        display: none;
+    }
+    .info{
+        margin: 0% 1%;
+        width: 98%;
+    }
+    .btn-div{
+        margin-left: 5%;
+    }
+    .last-para{
+        font-size: 17px;
+    }
+}
